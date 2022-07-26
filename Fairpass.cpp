@@ -46,8 +46,8 @@ int main() {
 	{
 	    cin>>N>>K;
 	    if(K>N)
-      // No.of Passes collected-K should be greated than No.of Friends-N 
-      // No.of passes should be N+1 chef anf his N friends
+      	    // No.of Passes collected-K should be greated than No.of Friends-N 
+      	    // No.of passes should be N+1 chef anf his N friends
 	        O[i]=1;
 	    else
 	        O[i]=0;
