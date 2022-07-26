@@ -16,18 +16,18 @@ For each test case, print on a new line YES if Chef will be able to enter the fa
 You may print each character of the string in either uppercase or lowercase (for example, the strings yEs, yes, Yes, and YES will all be treated as identical).
 Constraints
 
-    1≤T≤1001 \leq T \leq 1001≤T≤100
-    1≤N,K≤1001 \leq N, K \leq 1001≤N,K≤100
+    1≤T≤100 
+    1≤N,K≤100 
 
 Sample 1:
 Input
-Output
 
 4
 5 8
 6 3
 2 2
 1 2
+Output
 
 YES
 NO
