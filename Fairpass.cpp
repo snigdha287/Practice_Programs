@@ -1,7 +1,7 @@
 /*
 Problem
 
-There is a fair going on in Chefland. Chef wants to visit the fair along with his N friends. Chef manages to collect KKK passes for the fair. Will Chef be able to enter the fair with all his NNN friends?
+There is a fair going on in Chefland. Chef wants to visit the fair along with his N friends. Chef manages to collect K passes for the fair. Will Chef be able to enter the fair with all his NNN friends?
 
 A person can enter the fair using one pass, and each pass can be used by only one person.
 Input Format
@@ -11,7 +11,7 @@ Input Format
 
 Output Format
 
-For each test case, print on a new line YES if Chef will be able to enter the fair with all his NNN friends and NO otherwise.
+For each test case, print on a new line YES if Chef will be able to enter the fair with all his N friends and NO otherwise.
 
 You may print each character of the string in either uppercase or lowercase (for example, the strings yEs, yes, Yes, and YES will all be treated as identical).
 Constraints
