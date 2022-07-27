@@ -1,13 +1,13 @@
 /*
 Problem
 
-There is a fair going on in Chefland. Chef wants to visit the fair along with his NNN friends. Chef manages to collect KKK passes for the fair. Will Chef be able to enter the fair with all his NNN friends?
+There is a fair going on in Chefland. Chef wants to visit the fair along with his N friends. Chef manages to collect KKK passes for the fair. Will Chef be able to enter the fair with all his NNN friends?
 
 A person can enter the fair using one pass, and each pass can be used by only one person.
 Input Format
 
-    The first line of input will contain a single integer TTT, denoting the number of test cases.
-    Each test case consists of a single line containing two space-separated integers N,KN, KN,K.
+    The first line of input will contain a single integer T, denoting the number of test cases.
+    Each test case consists of a single line containing two space-separated integers N,K .
 
 Output Format
 
@@ -46,8 +46,8 @@ int main() {
 	{
 	    cin>>N>>K;
 	    if(K>N)
-      	    // No.of Passes collected-K should be greated than No.of Friends-N 
-      	    // No.of passes should be N+1 chef anf his N friends
+      	    // No.of Passes collected-K should be greater than No.of Friends-N 
+      	    // No.of passes should be N+1 chef and his N friends
 	        O[i]=1;
 	    else
 	        O[i]=0;
