@@ -45,7 +45,7 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Integer T,X,Y,A[];
+		Integer T,X,Y;
 		Scanner s =new Scanner(System.in);
 		T= s.nextInt();
 		for (int i = 0; i < T; i++)
