@@ -44,22 +44,16 @@ class Codechef
 		int T,X,Y;
 		Scanner s =new Scanner(System.in);
 		T= s.nextInt();
-        for(int i=0;i<T;i++)
-        {
-            X= s.nextInt();
-            Y= s.nextInt();
-            if(X<Y)
-            {
-                System.out.println("FIRST");
-            }
-            else if(X==Y)
-            {
-                System.out.println("ANY");
-            }
-            else
-            {
-                System.out.println("SECOND");
-            }
-        }
+		for(int i=0;i<T;i++)
+		{
+		    X= s.nextInt();
+		    Y= s.nextInt();
+		    if(X<Y)
+			System.out.println("FIRST");
+		    else if(X==Y)
+			System.out.println("ANY");
+		    else
+			System.out.println("SECOND");
+		}
 	}
 }
