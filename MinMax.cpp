@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    vector<int> arr;
-    int a,min=0,max=0;
+    vector<long> arr;
+    long a,min=0,max=0;
     for (int i = 0; i < 5; i++) 
     {
         cin>>a;
